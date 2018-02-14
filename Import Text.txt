@@ -1,0 +1,16 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class ImportText : MonoBehaviour {
+
+	public InputField name;
+	public InputField tname;
+	public Text tText;
+	public Text fText;
+
+	public void settext () {
+		fText.text = "" + name.text;
+		tText.text = "" + tname.text;
+	}
+}
